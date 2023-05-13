@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+</head>
+<body>
+  <h1>Welcome to the NFT Viewer</h1>
+
+  <form id="nft-form">
+    <label for="mint-address">Mint Address:</label><br>
+    <input type="text" id="mint-address" name="mint-address"><br>
+    <label for="network">Network:</label><br>
+    <select id="network" name="network">
+      <option value="mainnet-beta">Mainnet Beta</option>
+      <option value="devnet">Devnet</option>
+    </select>
+    <input type="submit" value="Fetch NFT">
+  </form>
+
+  <div id="nft-display">
+    <!-- NFT metadata will be displayed here -->
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
